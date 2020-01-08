@@ -1,0 +1,13 @@
+1578487960189	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilebFQEST"
+1578487960805	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1578487960806	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1578487960806	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1578487960806	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1578487963705	Marionette	INFO	Listening on port 26655
+1578487963816	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.warn: LoginRecipes: "getRecipes: falling back to a synchronous message for:" "https://angular.realworld.io"
+console.warn: LoginManager: "searchLogins: `formActionOrigin` or `httpRealm` is recommended"
+[Parent 24487, Gecko_IOThread] WARNING: pipe error (74): Connection reset by peer: file /build/firefox-ofOs95/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+[Parent 24487, Gecko_IOThread] WARNING: pipe error (75): Connection reset by peer: file /build/firefox-ofOs95/firefox-71.0+build5/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 358
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1578488001228	Marionette	INFO	Stopped listening on port 26655

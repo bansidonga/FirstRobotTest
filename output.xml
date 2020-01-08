@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generated="20200108 18:52:41.923" generator="Robot 3.1.2 (Python 3.5.2 on linux)" rpa="false">
+<suite source="/home/jeavio21/PycharmProjects/FirstRobotTest/CreateAccountTest.robot" name="CreateAccountTest" id="s1">
+<test name="CreateAccountTest" id="s1-t1">
+<kw type="setup" name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>${URL}</arg>
+<arg>Firefox</arg>
+</arguments>
+<msg timestamp="20200108 18:52:42.058" level="INFO">Opening browser 'Firefox' to base url 'https://angular.realworld.io/'.</msg>
+<msg timestamp="20200108 18:52:42.059" level="INFO">Firefox driver log is always forced to to: /home/jeavio21/PycharmProjects/FirstRobotTest/geckodriver-62.log</msg>
+<status starttime="20200108 18:52:42.057" endtime="20200108 18:52:47.732" status="PASS"></status>
+</kw>
+<kw name="Set Browser Implicit Wait" library="SeleniumLibrary">
+<doc>Sets the implicit wait value used by Selenium.</doc>
+<arguments>
+<arg>8</arg>
+</arguments>
+<status starttime="20200108 18:52:47.733" endtime="20200108 18:52:47.735" status="PASS"></status>
+</kw>
+<kw name="Click Element" library="SeleniumLibrary">
+<doc>Click the element identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html/body/app-root/app-layout-header/nav/div/ul/li[3]/a</arg>
+</arguments>
+<msg timestamp="20200108 18:52:47.736" level="INFO">Clicking element 'xpath=/html/body/app-root/app-layout-header/nav/div/ul/li[3]/a'.</msg>
+<status starttime="20200108 18:52:47.736" endtime="20200108 18:52:48.018" status="PASS"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html/body/app-root/app-auth-page/div/div/div/div/form/fieldset/fieldset[1]/input</arg>
+<arg>Mitpatel</arg>
+</arguments>
+<msg timestamp="20200108 18:52:48.021" level="INFO">Typing text 'Mitpatel' into text field 'xpath=/html/body/app-root/app-auth-page/div/div/div/div/form/fieldset/fieldset[1]/input'.</msg>
+<status starttime="20200108 18:52:48.019" endtime="20200108 18:52:48.085" status="PASS"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html/body/app-root/app-auth-page/div/div/div/div/form/fieldset/fieldset[2]/input</arg>
+<arg>mitappinvestor@gmail.com</arg>
+</arguments>
+<msg timestamp="20200108 18:52:48.085" level="INFO">Typing text 'mitappinvestor@gmail.com' into text field 'xpath=/html/body/app-root/app-auth-page/div/div/div/div/form/fieldset/fieldset[2]/input'.</msg>
+<status starttime="20200108 18:52:48.085" endtime="20200108 18:52:48.135" status="PASS"></status>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<arguments>
+<arg>xpath=/html/body/app-root/app-auth-page/div/div/div/div/form/fieldset/fieldset[3]/input</arg>
+<arg>b5a1n1s9i8</arg>
+</arguments>
+<msg timestamp="20200108 18:52:48.136" level="INFO">Typing text 'b5a1n1s9i8' into text field 'xpath=/html/body/app-root/app-auth-page/div/div/div/div/form/fieldset/fieldset[3]/input'.</msg>
+<status starttime="20200108 18:52:48.136" endtime="20200108 18:52:48.170" status="PASS"></status>
+</kw>
+<kw name="Press Keys" library="SeleniumLibrary">
+<doc>Simulates the user pressing key(s) to an element or on the active browser.</doc>
+<arguments>
+<arg>xpath=/html/body/app-root/app-auth-page/div/div/div/div/form/fieldset/button</arg>
+<arg>ENTER</arg>
+</arguments>
+<msg timestamp="20200108 18:52:48.171" level="INFO">Sending key(s) ('ENTER',) to xpath=/html/body/app-root/app-auth-page/div/div/div/div/form/fieldset/button element.</msg>
+<msg timestamp="20200108 18:52:48.177" level="INFO">Pressing special key ENTER to element.</msg>
+<status starttime="20200108 18:52:48.170" endtime="20200108 18:52:48.486" status="PASS"></status>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<doc>Waits until the element ``locator`` is visible.</doc>
+<arguments>
+<arg>//*[text()='Mitpatel']</arg>
+<arg>10s</arg>
+</arguments>
+<kw name="Capture Page Screenshot" library="SeleniumLibrary">
+<doc>Takes a screenshot of the current page and embeds it into a log file.</doc>
+<msg html="yes" timestamp="20200108 18:53:05.027" level="INFO">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="selenium-screenshot-15.png"&gt;&lt;img src="selenium-screenshot-15.png" width="800px"&gt;&lt;/a&gt;</msg>
+<status starttime="20200108 18:53:04.925" endtime="20200108 18:53:05.027" status="PASS"></status>
+</kw>
+<msg timestamp="20200108 18:53:05.028" level="FAIL">Element '//*[text()='Mitpatel']' not visible after 10 seconds.</msg>
+<status starttime="20200108 18:52:48.486" endtime="20200108 18:53:05.028" status="FAIL"></status>
+</kw>
+<kw type="teardown" name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status starttime="20200108 18:53:05.028" endtime="20200108 18:53:09.127" status="PASS"></status>
+</kw>
+<doc>This is test for creating account on conduit.</doc>
+<status starttime="20200108 18:52:42.057" critical="yes" endtime="20200108 18:53:09.127" status="FAIL">Element '//*[text()='Mitpatel']' not visible after 10 seconds.</status>
+</test>
+<doc>Suite description</doc>
+<status starttime="20200108 18:52:41.924" endtime="20200108 18:53:09.129" status="FAIL"></status>
+</suite>
+<statistics>
+<total>
+<stat fail="1" pass="0">Critical Tests</stat>
+<stat fail="1" pass="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat fail="1" id="s1" name="CreateAccountTest" pass="0">CreateAccountTest</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

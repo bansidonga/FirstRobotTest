@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c836c450-dab5-49ef-ac73-ee1b7d1e8e85" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Robot Keywords" />
+        <option value="Robot Test Suite" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1W3ux6IBQkHQvr2SXXx5WWo9tyO" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Unittests in FirstRobotTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="FirstRobotTest" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.Unittests in FirstRobotTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c836c450-dab5-49ef-ac73-ee1b7d1e8e85" name="Default Changelist" comment="" />
+      <created>1578390842067</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578390842067</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1832" height="296" key="GridCell.Tab.0.bottom" timestamp="1578406240530">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="1832" height="296" key="GridCell.Tab.0.bottom/65.24.1855.1056@65.24.1855.1056" timestamp="1578406240530" />
+    <state width="1832" height="296" key="GridCell.Tab.0.center" timestamp="1578406240528">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="1832" height="296" key="GridCell.Tab.0.center/65.24.1855.1056@65.24.1855.1056" timestamp="1578406240528" />
+    <state width="1832" height="296" key="GridCell.Tab.0.left" timestamp="1578406240527">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="1832" height="296" key="GridCell.Tab.0.left/65.24.1855.1056@65.24.1855.1056" timestamp="1578406240527" />
+    <state width="1832" height="296" key="GridCell.Tab.0.right" timestamp="1578406240529">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state width="1832" height="296" key="GridCell.Tab.0.right/65.24.1855.1056@65.24.1855.1056" timestamp="1578406240529" />
+    <state x="486" y="174" key="SettingsEditor" timestamp="1578397975377">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="486" y="174" key="SettingsEditor/65.24.1855.1056@65.24.1855.1056" timestamp="1578397975377" />
+    <state x="653" y="367" key="com.intellij.ide.util.TipDialog" timestamp="1578468121783">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="653" y="367" key="com.intellij.ide.util.TipDialog/65.24.1855.1056@65.24.1855.1056" timestamp="1578468121783" />
+    <state x="715" y="229" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1578469112446">
+      <screen x="65" y="24" width="1855" height="1056" />
+    </state>
+    <state x="715" y="229" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/65.24.1855.1056@65.24.1855.1056" timestamp="1578469112446" />
+  </component>
+</project>
